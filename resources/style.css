@@ -1,0 +1,8 @@
+/* Style for porfolio page */
+body {
+    font-family: Helvetica, Arial, sans-serif; /* Fallback fonts */
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white for contrast */
+}
