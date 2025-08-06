@@ -1,8 +1,91 @@
 /* Style for porfolio page */
+
 body {
-    font-family: Helvetica, Arial, sans-serif; /* Fallback fonts */
+    font-family: Helvetica, Arial, sans-serif; 
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 2, 5, 0.9); /* Transparent dark blue background */
+    color: #efeded; 
+}
+
+/* Style for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items:center;
+    height: 80px;
+    padding: 5px; /* Padding around the navbar */
+    font-size: 20px;
+}
+
+.navbar ul {
+    display: flex;
     margin: 0;
-    padding: 0;
-    background-color: black; /* Set background color to black */
-    color: white; /* Set text color to white for contrast */
+    padding: 0; 
+    list-style: none;
+    gap: 30px; /* Space between menu items */
+}
+
+.navbar li {
+    display: inline; /* Display menu items in a line */
+    list-style: none; /* Remove bullet points from list */
+    margin: 0;
+    padding-right: 10px;
+}
+
+.navbar a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar a:hover {
+    color: #efeded; /* Change color on hover */
+}
+
+.navbar a:active {
+    color: #efeded; /* Change color when active */
+}
+
+.intro {
+    display: flex; /* Allows for flexible layout */
+    flex-direction: row;
+    align-items: center; 
+    margin: 50px auto; 
+    text-align: left;
+    padding: 80px;
+    gap: 40px; /* Space between elements */
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.intro-text h1 { 
+    margin: auto 20px;
+    padding: 5px;
+    color:#ffffff;
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.intro-text p {
+    font-size: 30px; /* Font size for the paragraph */
+    color: #efeded; /* Text color */
+    margin: 0 auto; /* Center the paragraph */
+    padding: 5px;
+}
+
+.intro-image {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.intro-image img {
+    width: 400px;
+    height: auto;
 }
